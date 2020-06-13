@@ -1,0 +1,9 @@
+AWS SQS Architecture:
+
+SQS service is distributed over many AWS serever.
+This is done to ensure.
+1.Message is deleivered at least once.
+2.The SQS is managed service.
+
+Message visibility timeout.
+At a time a message can be processed by one component only.During that time it will be invisible to other component.
