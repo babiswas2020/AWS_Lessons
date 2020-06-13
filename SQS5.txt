@@ -1,0 +1,4 @@
+Purge and Delete Queue:
+Purge queue means deleting all the messages in the queue.
+Purge Queue is a permananent delete.
+Time required is 60 second.
