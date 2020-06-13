@@ -1,0 +1,40 @@
+SQS:
+Simple Queue Service:
+1.Decoupling and Scaling.
+2.Decoupling MicroServices.
+
+What are type of queues available?
+There are two types of queue.
+1.Standard Queue
+2.FIFO Queue
+
+Retention Period:
+1.The retention period for a message is 4 days.
+2.Maximum retention period is 14 days.
+
+Standard Queue:
+This is the default Queue.
+Support once message delivery.
+Ordering is not guranteed.
+
+FIFO Queue:
+1.FIFO queue has all the capabilities of standard Queue.
+2.Order is maintained.
+3.The objects of FIFO queue are processed atleast once.
+
+Q.How many types of Queue are there?
+There are two types of queue 
+1.Standard Queue
+2.FIFO Queue
+
+Q.What is the maximum retention period?
+The maximum retention period is 14 days.
+
+Q.What is the default retention period?
+The default retention period is 4 days.
+
+
+
+
+
+
