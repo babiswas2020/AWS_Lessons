@@ -1,0 +1,20 @@
+Dead letter Queue:
+Message which cannot be processed is put into dead letter queue.
+For a source queue a dead letter queue can be created.
+Dead letter queue of a FIFO queue is always a FIFO.
+Both source and dead letter queue should be in the same region.
+For a source queue associate a dead letter queue for the source queue.
+Deadletter queue for standard queue should be standard queue
+Deadletter queue for FIFO queue should be FIFO queue
+Queue and deadletter queue should be in the same region.
+Message retention period for the queue and deadletter queue is unchanged.
+Message retention period should be higher for debugging purpose.
+
+Q.When does a message moves to the dead letter queue?
+A message moves to the dead letter queue when message recive count exceeds the configured value.
+A deadletter queue is configured in the redrive policy of the source queue.
+
+
+Redrive policy of the source queue need to be configured for dead letter queue.
+
+
