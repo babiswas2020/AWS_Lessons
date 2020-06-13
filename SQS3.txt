@@ -1,0 +1,16 @@
+Standard and Fifo Queue:
+1.Standard Queue is default queue.
+2.queue name with .fifo is called fifo queue.
+3.Cannot change the queue type after the queue is created.
+4.Same queue name can be created after deleting ,but 60 sec wait period is there to do the same.
+
+Configuration Parameters:
+1.Default visibility timeout
+2.Retention Period
+3.Message Size
+4.Delivery Delay
+5.Recieve message Wait time.
+
+For a fifo queue .fifo should be added after the name of the queue.
+
+
