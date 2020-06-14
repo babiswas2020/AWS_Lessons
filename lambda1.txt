@@ -1,0 +1,32 @@
+AWS lambda:
+1)I am role is required to create lambda function.
+2)A trigger is required for lambda function.
+3)Scaling is automated in lambda functions.
+Pricing:
+1.Request
+2.Compute Time.
+4)AWS lambda can be monitored using cloud watch.
+
+Language Supported
+1.Python
+2.Node.js
+
+AWS lambda Integrations:
+1.API Gateway
+2.Kinesis Integration
+3.Dynamo DB
+4.AWS S3 Bucket
+5.AWS IOT
+6.CloudWatch Event
+7.CloudWatch Logs
+
+AWS lambda needs a trigger.
+Basic permissions for lambda is read write cloudwatch.
+A trigger is required for lambda function to run
+
+
+
+
+
+
+
